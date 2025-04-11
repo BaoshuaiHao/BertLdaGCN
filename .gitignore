@@ -1,0 +1,25 @@
+# 忽略 PowerShell 脚本文件
+*.ps1
+
+# 忽略 llms 文件夹
+llms/
+
+# 忽略 output 文件夹
+output/
+data/ind.*
+models
+__pycache__
+data/*.*.*
+data/*shuffle*
+data/*vector*
+data/corpus/*labels*
+data/corpus/*shuffle*
+.ipynb_checkpoints
+data/corpus/*vocab*
+nohup.out
+checkpoints/*
+checkpoint/*
+*.ipynb
+bert_gcn
+bert_gcn_ind
+bert_sgc
